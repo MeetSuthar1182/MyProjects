@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+
+body {
+    text-align: center;
+    background-color: black;
+}
+
+h1 {
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #B026FF,
+        0 0 20px #B026FF,
+        0 0 35px #B026FF,
+        0 0 40px #B026FF,
+        0 0 50px #B026FF,
+        0 0 75px #B026FF;
+    font-size: 3rem;
+}
+
+.container {
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 35vmin;
+    width: 35vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.box {
+    height: 10vmin;
+    width: 10vmin;
+    border: 2px solid;
+    border-color: white;
+    box-shadow: 0 0 5px #ffffff,
+        0 0 10px #ffffff;
+    border-radius: 10px;
+    font-size: 3.5rem;
+    background-color: black;
+    color: white;
+}
+
+.msg-container {
+    font-size: 2rem;
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #39FF14,
+        /* Inner glow color */
+        0 0 20px #39FF14,
+        0 0 35px #39FF14,
+        0 0 40px #39FF14,
+        0 0 50px #39FF14,
+        0 0 75px #39FF14;
+}
+
+#new-game {
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    height: 4rem;
+    width: 12rem;
+    font-size: 2rem;
+    margin-top: 40px;
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #FFE600,
+        0 0 20px #FFE600,
+        0 0 35px #FFE600,
+        0 0 40px #FFE600,
+        0 0 50px #FFE600,
+        0 0 75px #FFE600;
+    cursor: pointer;
+}
+
+#new-game:hover {
+    border: 2px solid;
+    border-color: #fff;
+    box-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #FFE600,
+        0 0 20px #ffe600;
+}
+
+#Reset {
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+    height: 4rem;
+    width: 13rem;
+    font-size: 2rem;
+    color: #fff;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #FFE600,
+        0 0 20px #FFE600,
+        0 0 35px #FFE600,
+        0 0 40px #FFE600,
+        0 0 50px #FFE600,
+        0 0 75px #FFE600;
+    cursor: pointer;
+}
+
+#Reset:hover {
+    border: 2px solid;
+    border-color: #fff;
+    box-shadow: 0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 15px #FFE600,
+        0 0 20px #ffe600;
+}
